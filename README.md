@@ -1,6 +1,7 @@
 # Front-End Trick
 
 ~~~
+~#000000~
 <include iostream>
 int main(){
   
