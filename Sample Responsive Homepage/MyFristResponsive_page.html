@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Responsive Basic Wep page</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    .Head{
+      background-color: green;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .menu{
+      float: left;
+      width: 20%;
+      text-align: center;
+    }
+    .main{
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+
+    }
+    .menu a{
+      background-color: #e5e5e5;
+      padding: 8px;
+      margin-top: 7px;
+      display: block;
+      width: 100%;
+      color: black;
+    }
+    .right{
+      background-color: aliceblue;
+      float: left;
+      width: 20%;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+    }
+    a:hover{
+      background-color: red;
+
+    }
+    @media only screen and (max-width:620px){
+      .menu,.main,.right{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body style="background-color: antiquewhite;">
+  <div class="Head">
+    <h1>Computer Science and Engineering</h1><hr>
+  </div>
+  <div style="overflow: auto;">
+    <div class="menu">
+      <a href="#JavaScript">JavaScript tutorial</a>
+      <a href="#Python">Python tutorial</a>
+      <a href="#Java">Java tutorial</a>
+      <a href="#C++">C++ turorial</a>
+      <a href="#HTMLCSS">HTML and CSS tutorial</a>
+    </div>
+    <div class="main">
+      <h2>The Target Working with You</h2>
+      <p>Here You Can Learn About Most of Popular Programming Languages and Data Structures Some of the Important Algorithms.Choose a Programmming Languages which You Want to Learn and Keep Learn it untill to become expert with it!</p>
+    </div>
+    <div class="right">
+      <h2>About Us</h2>
+      <p>We Are Team that Leads You to Expert Level in Computer Sciense.</p>
+    </div>
+  </div>
+  <div style="background-color: #e5e5e5;text-align: center; padding: 10px;margin-top: 7px;"><address>
+    <p>Address: Sought Korea Seoul Ujongbu City, Mail: expertes001@gmail.com,Tel: 010 8007 7577</p>
+  </address></div>
+</body>
+</html>
