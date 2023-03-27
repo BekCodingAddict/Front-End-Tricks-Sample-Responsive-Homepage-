@@ -6,7 +6,7 @@ There are many front-end tricks that can help you improve your website’s perfo
 
 |   TOPIK  |     LINK:  |
 | :--------------:| :----------: |
-|Sample of Responsive Homepage| [MyFristResponsive_page.html]("Front-End_Tricks/Sample Responsive Homepage/MyFristResponsive_page.html")
+|Sample of Responsive Homepage|[MyFristResponsive_page.html]("Front-End_Tricks/Sample-Responsive-Homepage/MyFristResponsive_page.html")
 
 
 ~~~
