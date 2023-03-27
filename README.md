@@ -1,3 +1,10 @@
-# Front-End Tricks
+# Front-End Trick
 
-[] H
+~~~
+<include iostream>
+int main(){
+  
+  std::cout<<"Welcome"<std::endl;
+  return 0;
+  }
+~~~
