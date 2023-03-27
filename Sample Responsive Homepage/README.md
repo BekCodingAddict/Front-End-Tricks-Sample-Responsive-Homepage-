@@ -6,5 +6,11 @@
 
 ### Mobile View
 
-<video src="https://github.com/BekCodingAddict/Front-End_Tricks/blob/main/Sample%20Responsive%20Homepage/MobileView.mp4?raw=true"></video>
+<video
+      controls
+      loop
+      autoplay
+      src="https://github.com/BekCodingAddict/Front-End_Tricks/blob/main/Sample%20Responsive%20Homepage/MobileView.mp4?raw=true"
+      poster="benefits-of-coding.jpg"
+></video>
 
