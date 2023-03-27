@@ -1,1 +1,1 @@
-# Front-End-Tricks-Sample-Responsive-Homepage-
+# Front-End Tricks
