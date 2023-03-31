@@ -3,7 +3,7 @@
 
 There are many front-end tricks that can help you improve your website’s performance and user experience. Here are some of them:
 
-|   TOPIK  |     LINK:  |
+|   TOPIC  |     LINK:  |
 |:--------------:|:----------:|
 | Sample of Responsive Homepage | [MyFristResponsive_page.html]("https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Sample%20Responsive%20Homepage") |
 
