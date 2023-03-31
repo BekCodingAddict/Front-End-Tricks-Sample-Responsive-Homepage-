@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color:#EDF7F6;
+}
+
+.Header{
+    background-image:url("https://i.pinimg.com/originals/33/b9/f9/33b9f99c8570eed950b9fe0358a589fa.jpg");
+    color: white;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-position: center;
+    background-size: cover;
+    margin:0px;
+}
+
+body,Header{
+    margin:0px;
+}
+
+.SupParient{
+    width: 100%;
+    display: flex;
+
+}
+
+.Parient{
+    display: flex;
+    background-color: #D0BDF4;
+    width: 70%;
+    padding: 25px;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 300px;
+}
+
+.Child{
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left:60px;
+    width: 150px;
+    padding: 5px;
+}
+
+.InfoBar{
+    display: flex;
+    width: 30%;
+    margin-right: 10px;
+    color: black;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: inherit;
+}
+.Info{
+    background-color: #9DF9EF;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-right: 10px;
+    width:100%;
+}
+
+.Footer{
+    background-color: lightgray;
+    text-align:left;
+    padding: 25px;
+    margin:0px;
+    height: 180px;
+    width: 100%;
+}
+button:hover{
+    animation: shake 200ms 2;
+}
+
+@keyframes shake{
+    0%,100%{translate:0;}
+    25%{translate:0.125rem;}
+    75%{translate:-0.125rem;}
+}
+
+@media screen and (max-width:620px){
+    .Parient,.InfoBar{
+        width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h2 class="Header">Example of CSS ShakeEffect.</h2><hr style="width:inherit">
+    <div class="SupParient">
+        <div class="Parient">
+            <div class="Child">
+                <button type="button" style="padding:10px; width: 150px; border:1px solid black; border-radius: 5px; background-color:#05a545b6 ; color: azure; font-size: larger;">Sing In</button>
+            </div>
+            <div class="Child">
+                <button type="button" style="padding:10px; width: 150px; border:1px solid black; border-radius: 5px; background-color:#05a545b6;color: azure; font-size: larger;">Sing Up</button>
+            </div>
+        </div>
+        <div class="InfoBar">
+            <div class="Info">
+                Button Shake Effect in CSS<br><br>
+                <div style="border:1px solid black; font-size: small;padding: 15px; border-radius:10px;width: 80%; background-color: transparent;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, pariatur fugit consequuntur aliquam veniam eligendi officia tempore facere ratione, ut voluptates esse incidunt exercitationem libero facilis excepturi voluptatibus dignissimos porro.
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <footer class="Footer">
+        <address>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quis enim repellat harum deleniti tempora nesciunt, fugit aut est repellendus, consectetur veniam vitae et odio at optio dignissimos rem consequatur alias?</address>
+    </footer>
+</body>
+</html>
