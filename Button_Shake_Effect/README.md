@@ -1,5 +1,7 @@
 ## This is a small example to demonstrate how you can add a shake animation effect to buttons on hovering. 
+
 https://user-images.githubusercontent.com/70604119/229085385-bff23b15-25d4-4884-b5c0-4582342092fa.mp4
+
 CSS code
 ~~~CSS
 button:disabled:hover{
