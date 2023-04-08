@@ -7,6 +7,7 @@ There are many front-end tricks that can help you improve your website’s perfo
 |:--------------:|:----------:|
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Sample%20Responsive%20Homepage">Sample of Basic Responsive Homepage</a>| This is just responsive page sample which was i build at the frist time|
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Button_Shake_Effect" title="Link">CSS Button Shake Effect</a>| CSS SHake Animation Sample |
+|<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Gradient_Button_Effect" title="Link">Gradient Button Effect</a>| A stylish button with a smooth gradient shadow hover effect.|
 
 
 All of the above in the list might not be the most practical but some of them are definitely not used enough in frontend development and can really help you expand your frontend skills. I’m sure there are a lot more tricks!
