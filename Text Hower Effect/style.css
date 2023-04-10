@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'geomanist-regular-webfont';
+    src: url(/Fonts/geomanist-regular-webfont.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-image: url('https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container .navbar h1{
+    display: flex;
+    float: left;
+}
+
+h1{
+    line-height: 1.2em;
+    color:#0000;
+    text-shadow: 0 0 #000, 0 1.2em #1095c1;
+    overflow: hidden;
+    transition: 0.3s;
+    font-size: 1em;
+    margin: 10px;
+    font-family: 'geomanist-regular-webfont';
+}
+h1:hover{
+    text-shadow: 0 -1.2em #000, 0 0 #1095c1;
+}
