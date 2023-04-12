@@ -7,7 +7,8 @@ https://user-images.githubusercontent.com/70604119/230955707-091cea3e-d5ae-4ae7-
 
 <h3>Here's Text Hover Effect code which was I used this small exaple:
 
-~~~CSS
+~~~css
+  
   h1{
     line-height: 1.2em;
     color:#0000;
