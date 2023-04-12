@@ -6,6 +6,7 @@ A CSS hover effect takes place when a user hovers over an element, and the eleme
 https://user-images.githubusercontent.com/70604119/230955707-091cea3e-d5ae-4ae7-b751-308d92af9a74.mp4
 
 <h3>Here's Text Hover Effect code which was I used this small exaple:
+
 ~~~CSS
   h1{
     line-height: 1.2em;
