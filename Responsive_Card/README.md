@@ -85,3 +85,16 @@ Here I will show the responsive card the main css codes:
             max-width: 1000px;
         }
 ~~~
+In this small project, I used bootstrap5 icons and google fonts:
+
+Import bootstrap5 :
+~~~css
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"); 
+~~~
+Import Icon to html:
+~~~HTML
+  <i class="bi bi-list"></i>
+~~~
+
+
+
