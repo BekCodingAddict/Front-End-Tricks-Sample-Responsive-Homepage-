@@ -23,6 +23,8 @@ https://user-images.githubusercontent.com/70604119/232231927-0def7d2e-5039-45ea-
       <button>Show me</button>
    </div>
 </div>
+~~~
+Here I will show the responsive card the main css codes:
 ~~~css
     * {
         box-sizing: border-box;
