@@ -96,5 +96,11 @@ Import Icon to html:
   <i class="bi bi-list"></i>
 ~~~
 
+Google font which i used:
+~~~css
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Prompt&display=swap');
+~~~
+
+if
 
 
