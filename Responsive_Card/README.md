@@ -23,5 +23,63 @@ https://user-images.githubusercontent.com/70604119/232231927-0def7d2e-5039-45ea-
       <button>Show me</button>
    </div>
 </div>
-~~~
+~~~css
+    * {
+        box-sizing: border-box;
+      }
 
+     .card{
+        display: flex;
+        align-items: center;
+        width: 75vw;
+        max-width: 650px;
+        padding: 50px 30px 50px 20px;
+        background: #ffffff;
+        border-radius: 24px;
+        box-shadow: 2px 2px 2px 2px gray;
+      }
+      /* card Image */
+      .card img{
+        max-width: 280px;
+        width: 38vw;
+        height: 200px;
+        object-fit: cover;
+        margin-left: -60px;
+        margin-right: 30px;
+        border-radius: inherit;
+        box-shadow: 2px 60px 40px rgb(0 0 0 / 8%);
+      }
+
+     .card h3{
+        color:rgb(0,0,0 / 8%);
+      }
+      .card p{
+        color:rgb(0 0 0 / 70%);
+      }
+     /* button */
+      .card button{
+        border:0;
+        background:#5448de;
+        color:#f8f8f8;
+        font-family: inherit;
+        padding: 10px;
+        border-radius: 40px;
+        width: 200px;
+      }
+     /*responsive design*/
+      @media (width<=740px){
+        .card{
+            flex-direction: column;
+            text-align: center;
+            margin:0px;
+            padding-left: 50px;
+            padding-right: 50px;
+            width: 100%;
+        }
+
+        .card img{
+            margin:-100px 0 30px 0;
+            width: 100%;
+            max-width: 1000px;
+        }
+~~~
