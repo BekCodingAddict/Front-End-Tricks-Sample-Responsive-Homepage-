@@ -12,6 +12,7 @@ Overall, responsive cards are an important design element in creating modern, mo
 
 https://user-images.githubusercontent.com/70604119/232231927-0def7d2e-5039-45ea-bb44-efd20d436a23.mp4
 
+### HTML Code Like that:
 ~~~HTML
 <div class="card">
    <img src="img path">
