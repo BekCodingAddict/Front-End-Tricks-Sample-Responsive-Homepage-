@@ -5,7 +5,6 @@ Rewiev:
 
 
 
-
 ### About
 
 Navbar hover effect refers to the visual changes or animations that occur when a user hovers their cursor over a navigation bar (navbar) element on a website or application. It is a form of interactivity that can enhance the user experience by providing visual feedback and making the navigation bar more engaging and visually appealing.
