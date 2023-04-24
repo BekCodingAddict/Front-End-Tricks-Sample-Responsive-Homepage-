@@ -13,20 +13,34 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-size:100%;
+    background-attachment: fixed;
     height: 100%;
 }
 
-.container{
+header{
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.container .navbar h1{
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    width:100%;
+}
+.container h2{
+    font-family: "geomanist-regular-webfont";
+    font-size: 3em;
+    color:  #1095c1;
+
+}
+ .navbar a{
     display: flex;
     float: left;
 }
 
-h1{
+a{
     line-height: 1.2em;
     color:#0000;
     text-shadow: 0 0 #000, 0 1.2em #1095c1;
@@ -36,6 +50,16 @@ h1{
     margin: 10px;
     font-family: 'geomanist-regular-webfont';
 }
-h1:hover{
+a:hover{
     text-shadow: 0 -1.2em #000, 0 0 #1095c1;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    background-color: #333;
+    color: #fff;
+    text-shadow: 2px 2px 2px 2px gray;
+    width: 100%;
 }

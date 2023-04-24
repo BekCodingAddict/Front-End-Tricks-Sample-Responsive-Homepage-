@@ -6,6 +6,10 @@
 }
 
 body {
+    background-image: url('https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -13,7 +17,6 @@ body {
 }
 
 .header {
-    background-color: #333;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -47,10 +50,7 @@ body {
 }
 
 .hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,20 +64,20 @@ body {
 }
 
 .cta {
-    background-color: #fff;
+    background-color: #333;
     padding: 50px;
     text-align: center;
 }
 
 .cta h2 {
     font-size: 3rem;
-    color: #333;
+    color: #fff;
     margin-bottom: 20px;
 }
 
 .cta p {
     font-size: 1.2rem;
-    color: #777;
+    color: #fff;
     margin-bottom: 30px;
 }
 
