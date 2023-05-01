@@ -1,7 +1,6 @@
 # Simple Sign Up Form 
 
-## Review 👇👇👇 link below:
-https://bekcodingaddict.github.io/Front-End_Tricks/Simple_SignUp_Form/
+## Review 👇👇👇 Link:  [Project Link](https://bekcodingaddict.github.io/Front-End_Tricks/Simple_SignUp_Form/)
 
 <h3>About...</h3>
 
