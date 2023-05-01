@@ -12,6 +12,7 @@ There are many front-end tricks that can help you improve your website’s perfo
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Responsive_Card" title="Link:">Responsive Card</a>| Responsive Card Desiging basic Samples!|
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Navbar_Hover_Effect" title="Link:">Navbar Hover Effect</a>|Navbar hover effect designing and example|
 <a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Image_Zoom_Effect" title="Link:">Image Zoom Effect</a>|Image hover zoom effect is a visual effect that occurs when a user hovers their mouse pointer over an image and the image enlarges or zooms in to provide a closer view.|
+|<a href="" title="Link:"></a>|A sign-up form in web development is a type of form used to collect information from users who want to create an account on a website or web application.|
 
 
 
