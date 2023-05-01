@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prompt:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(
+        to left,
+        #2F80ED,
+        #B2FFDA
+    );
+}
+
+.wrapper{
+    position: relative;
+    width: 70rem;
+    height: 70vh;
+    border-radius: 3rem;
+    background-color: #eee;
+    box-shadow: 0 2rem 6rem rgba(0,0,0,0.3);
+    overflow:hidden;
+}
+
+.wrapper .intro{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(to right,#3ab19b,#4cbf91);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    transition: all .3s ease-in-out;
+    z-index: 10;
+}
+
+.wrapper .intro h1{
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: .5rem;
+}
+
+.wrapper .intro p{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.wrapper .intro .btn{
+    border: 2px solid #fff;
+    border-radius: 2.5rem;
+    background-color: transparent;
+    padding: .5rem 6rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color:#fff;
+    cursor: pointer;
+}
+
+.wrapper .intro .btn:hover{
+    transform: scale(1.1);
+}
+
+.wrapper .intro .btn i{
+    animation: left 1s infinite;
+}
+.wrapper .intro .btn i:active{
+    transform: scale(.98);
+}
+.wrapper .intro .btn i:focus{
+    outline: none;
+}
+
+.wrapper .form-wrapper{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    z-index: 20;
+    transition: all .3s ease-in-out;
+    transform:  translateX(0);
+}
+
+.wrapper .form-wrapper h1{
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    color:#3ab19b;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper .form-wrapper .icon-group .btn{
+    border:1px solid rgb(194,190,190);
+    border-radius:50%;
+    color:#555;
+    background-color: transparent;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin: .6rem;
+    cursor:pointer;
+}
+
+.wrapper .form-wrapper .icon-group .btn:focus{
+    outline: none;
+}
+
+.wrapper .form-wrapper .line{
+    margin: 1rem 0 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .form-wrapper .line hr{
+    border-top: 1px solid rgb(194,190,190);
+    width: 20%;
+}
+
+.wrapper .form-wrapper .form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper .form-wrapper .form form .form-control{
+    width: 70%;
+    background-color: #ddd;
+    border-radius: .3rem;
+    margin: .5rem;
+}
+
+.wrapper .form-wrapper .form form .form-control input{
+    padding: .5rem;
+    width: 90%;
+    height: 4rem;
+    background-color: transparent;
+    border:none;
+    color: #000;
+}
+
+.wrapper .form-wrapper .form form .form-control input:focus{
+    outline: none;
+}
+
+.wrapper .form-wrapper .form form button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+    background-color: #3ab19b;
+    height: 4rem;
+    width: 15rem;
+    border:none;
+    cursor:pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.wrapper .active{
+    width: 40%;
+}
+
+.wrapper .active .btn{
+    animation: none;
+}
+
+@keyframes left {
+    0%{
+        transform: translateX(-50%);
+    }
+    50%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+.wrapper .intro .active +.form-wrapper{
+    transform: translateX(0);
+}

@@ -1,5 +1,15 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.3"
-  }
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5"
+  },
+  "name": "front-end_tricks",
+  "description": "There are many front-end tricks that can help you improve your website’s performance and user experience. Here are some of them:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
