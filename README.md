@@ -11,7 +11,13 @@ There are many front-end tricks that can help you improve your website’s perfo
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Text%20Hower%20Effect" title="Link">Text Hover Effect</a>|A CSS hover effect takes place when a user hovers over an element, and the element responds with transition effects. It is used to mark the key items on the web page and it’s an effective way to enhance the user experience.|
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Responsive_Card" title="Link:">Responsive Card</a>| Responsive Card Desiging basic Samples!|
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Navbar_Hover_Effect" title="Link:">Navbar Hover Effect</a>|Navbar hover effect designing and example|
+<<<<<<< HEAD
 |<a href="" title="Link"></a>|
+=======
+<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Image_Zoom_Effect" title="Link:">Image Zoom Effect</a>|Image hover zoom effect is a visual effect that occurs when a user hovers their mouse pointer over an image and the image enlarges or zooms in to provide a closer view.|
+|<a href="" title="Link:"></a>|A sign-up form in web development is a type of form used to collect information from users who want to create an account on a website or web application.|
+
+>>>>>>> 626410bb4447a6d97e0efeb248cc12e871e7c5fc
 
 
 All of the above in the list might not be the most practical but some of them are definitely not used enough in frontend development and can really help you expand your frontend skills. I’m sure there are a lot more tricks!
