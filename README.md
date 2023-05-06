@@ -14,6 +14,7 @@ There are many front-end tricks that can help you improve your website’s perfo
 <a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Image_Zoom_Effect" title="Link:">Image Zoom Effect</a>|Image hover zoom effect is a visual effect that occurs when a user hovers their mouse pointer over an image and the image enlarges or zooms in to provide a closer view.|
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Simple_SignUp_Form" title="Link:">Simple SignUp Form</a>|A sign-up form in web development is a type of form used to collect information from users who want to create an account on a website or web application.|
 |<a href="https://github.com/BekCodingAddict/Front-End_Tricks/tree/main/Responsive_Hamburger_Menu" title="Link:">Responsive Hamburger Menu and Navbar</a>|A responsive hamburger menu is a type of user interface design pattern used on websites and mobile applications|
+
 All of the above in the list might not be the most practical but some of them are definitely not used enough in frontend development and can really help you expand your frontend skills. I’m sure there are a lot more tricks!
 
 Hope you’ve enjoyed reading!
