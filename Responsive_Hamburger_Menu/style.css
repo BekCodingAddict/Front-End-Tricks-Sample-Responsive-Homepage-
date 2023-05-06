@@ -76,10 +76,11 @@ section{
         white
     );
 }
-section h1{
+section h2{
     font-family:"Amazing-Slab-Regular-trial";
-    font-size: 2rem;
+    font-size: 4rem;
     color: lightgray;
+    text-shadow: 2px 2px 2px gray;
 }
 @media (max-width:768px){
     .hamburger{
